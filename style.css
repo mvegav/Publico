@@ -1,0 +1,79 @@
+body {
+	margin: 20px 0px 0px 0px;
+	padding: 0;
+	background: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #3C3D3F;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.8em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+} 
+/* cabecera */
+
+/* logo */
+/* Menu */
+
+#menu a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #0C0C0C;
+}
+
+#menu .current_page_item a {
+	background: #EB1D1D;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#menu .current_page_item a {
+	color: #FFFFFF;
+}
+
+
+/* buscar */
+
+/* Pagina */
+
+/* menú lateral */
+
+
+/* contenido */
+
+/* lateral-dch */
+
+#lateral-dch h2 {
+	letter-spacing: -2px;
+	font-size: 2em;
+	color: #414141;
+}
+
+/* Footer */
+
+#footer {
+	border-top: 1px solid #BBBBBB;
+	font-family: Arial, Helvetica, sans-serif;
+}
