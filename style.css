@@ -31,6 +31,10 @@ p, ul, ol {
 } 
 /* para header no aplicamos estilos*/
 /* cabecera engloba el título y el menú. No es el header*/
+/* cabecera */
+/* la mejor forma de hacer columnas (colocar elementos uno al lado de otro) colocar uno a la derecha o a la izquierda y 
+agrupar los otros dos para colocar este bloque (columna) al lado opuesto del otro elemento. Dentro del bloque que contiene dos 
+elementos los colocamos los dos para el mismo lado*/
 
 /* logo */
 /* Menu */
