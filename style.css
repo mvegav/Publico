@@ -29,7 +29,8 @@ p, ul, ol {
 	margin-top: 0;
 	line-height: 180%;
 } 
-/* cabecera */
+/* para header no aplicamos estilos*/
+/* cabecera engloba el título y el menú. No es el header*/
 
 /* logo */
 /* Menu */
