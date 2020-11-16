@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>EmuleGame</title>
+        <meta name="description"  content="Emulador de juegos de antiguas consolas" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--link rel="stylesheet" href="css/style.css"-->
+    </head>
+<body>
+    <header>
+        <h1>FORMULARIO DE ALTA DE CLIENTES</h1>
+    </header>
+    <main>>
+        <form action="formulario2.html" method="post" target="_self" autocomplete="on" enctype="multipart/form-data" aria-label="Formulario de alta">
+            <!-- formulario de contacto -->
+            <fieldset>
+                <legend accesskey="d">Datos personales</legend>
+                <!-- etiqueta label -->
+                <label for="nombre">Nombre</label><br>
+                <!-- etiqueta input tipo texto. Campo obligatorio, letras mayusculas y minúsculas, de 1 a 15 caracteres-->
+                <input name='nombre' id="nombre" type='text' autocomplete="cc-name"  placeholder="Indica tu nombre" pattern="[a-zA-Z]{1,15}" required autofocus />
+                <br>
+                <label for="apellidos">Apellidos</label><br>
+                <!-- etiqueta input tipo texto. Campo obligatorio, letras mayusculas y minúsculas, de 1 a 15 caracteres-->
+                <input name='apellidos' type='text' autocomplete="given-name" id="apellidos" placeholder="Indica tus apellidos" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,64}" required size="30"/><br>
+                <label for="dni">DNI</label><br>
+                <input type="text" name="dni" id="dni" maxlength="9" size="10" pattern="[0-9]{8}[a-zA-Z]{1}"><br>
+                <label for="hombre">Hombre</label>
+                <input type="radio" id="hombre" name="sexo" value="hombre" checked="checked" /> 
+                <label for="mujer">Mujer</label>
+                <input type="radio" id="mujer" name="sexo" value="mujer" />
+                <br>
+                <label for="nacimiento">Fecha de nacimiento</label><br>
+                <input type="date" name="nacimiento" id="nacimiento" max="2002-01-01"> <br/>
+                <label for="dia">Fecha de nacimiento: </label>
+                <select name="dia" id="dia">
+                    <option value="1" class="dia">1</option>
+                    <option value="2" class="dia">2</option>
+                    <option value="3" class="dia">3</option>
+                    <option value="4" class="dia">4</option>
+                    <option value="5" class="dia">5</option>
+                    <option value="6" class="dia">6</option>
+                    <option value="7" class="dia">7</option>
+                    <option value="8" class="dia">8</option>
+                    <option value="9" class="dia">9</option>
+                    <option value="10" class="dia">10</option>
+                    <option value="11" class="dia">11</option>
+                    <option value="12" class="dia">12</option>
+                    <option value="13" class="dia">13</option>
+                    <option value="14" class="dia">14</option>
+                    <option value="15" class="dia">15</option>
+                    <option value="16" class="dia">16</option>
+                    <option value="17" class="dia">17</option>
+                    <option value="18" class="dia">18</option>
+                    <option value="19" class="dia">19</option>
+                    <option value="20" class="dia">20</option>
+                    <option value="21" class="dia">21</option>
+                    <option value="22" class="dia">22</option>
+                    <option value="23" class="dia">23</option>
+                    <option value="24" class="dia">24</option>
+                    <option value="25" class="dia">25</option>
+                    <option value="26" class="dia">26</option>
+                    <option value="27" class="dia">27</option>
+                    <option value="28" class="dia">28</option>
+                    <option value="29" class="dia">29</option>
+                    <option value="30" class="dia">30</option>
+                    <option value="31" class="dia">31</option>
+                </select>
+                <select name="mes" id="mes">
+                    <option value="1" class="mes">1</option>
+                    <option value="2" class="mes">2</option>
+                    <option value="3" class="mes">3</option>
+                    <option value="4" class="mes">4</option>
+                    <option value="5" class="mes">5</option>
+                    <option value="6" class="mes">6</option>
+                    <option value="7" class="mes">7</option>
+                    <option value="8" class="mes">8</option>
+                    <option value="9" class="mes">9</option>
+                    <option value="10" class="mes">10</option>
+                    <option value="11" class="mes">11</option>
+                    <option value="12" class="mes">12</option>
+                </select>
+                <select name="year" id="year">
+                    <option value="1901" class="year">1901</option>
+                    <option value="1902" class="year">1902</option>
+                    <option value="1903" class="year">1903</option>
+                    <option value="1904" class="year">1904</option>
+                    <option value="1905" class="year">1905</option>
+                    <option value="1906" class="year">1906</option>
+                    <option value="1907" class="year">1907</option>
+                    <option value="1908" class="year">1908</option>
+                    <option value="1909" class="year">1909</option>
+                    <option value="1910" class="year">1910</option>
+                    <option value="1911" class="year">1911</option>
+                    <option value="1912" class="year">1912</option>
+                    <option value="1913" class="year">1913</option>
+                    <option value="1914" class="year">1914</option>
+                    <option value="1915" class="year">1915</option>
+                    <option value="1916" class="year">1916</option>
+                    <option value="1917" class="year">1917</option>
+                    <option value="1918" class="year">1918</option>
+                    <option value="1919" class="year">1919</option>
+                    <option value="1920" class="year">1920</option>
+                    <option value="1921" class="year">1921</option>
+                    <option value="1922" class="year">1922</option>
+                    <option value="1923" class="year">1923</option>
+                    <option value="1924" class="year">1924</option>
+                    <option value="1925" class="year">1925</option>
+                    <option value="1926" class="year">1926</option>
+                    <option value="1927" class="year">1927</option>
+                    <option value="1928" class="year">1928</option>
+                    <option value="1929" class="year">1929</option>
+                    <option value="1930" class="year">1930</option>
+                    <option value="1931" class="year">1931</option>
+                    <option value="1932" class="year">1932</option>
+                    <option value="1933" class="year">1933</option>
+                    <option value="1934" class="year">1934</option>
+                    <option value="1935" class="year">1935</option>
+                    <option value="1936" class="year">1936</option>
+                    <option value="1937" class="year">1937</option>
+                    <option value="1938" class="year">1938</option>
+                    <option value="1939" class="year">1939</option>
+                    <option value="1940" class="year">1940</option>
+                    <option value="1941" class="year">1941</option>
+                    <option value="1942" class="year">1942</option>
+                    <option value="1943" class="year">1943</option>
+                    <option value="1944" class="year">1944</option>
+                    <option value="1945" class="year">1945</option>
+                    <option value="1946" class="year">1946</option>
+                    <option value="1947" class="year">1947</option>
+                    <option value="1948" class="year">1948</option>
+                    <option value="1949" class="year">1949</option>
+                    <option value="1950" class="year">1950</option>
+                    <option value="1951" class="year">1951</option>
+                    <option value="1952" class="year">1952</option>
+                    <option value="1953" class="year">1953</option>
+                    <option value="1954" class="year">1954</option>
+                    <option value="1955" class="year">1955</option>
+                    <option value="1956" class="year">1956</option>
+                    <option value="1957" class="year">1957</option>
+                    <option value="1958" class="year">1958</option>
+                    <option value="1959" class="year">1959</option>
+                    <option value="1960" class="year">1960</option>
+                    <option value="1961" class="year">1961</option>
+                    <option value="1962" class="year">1962</option>
+                    <option value="1963" class="year">1963</option>
+                    <option value="1964" class="year">1964</option>
+                    <option value="1965" class="year">1965</option>
+                    <option value="1966" class="year">1966</option>
+                    <option value="1967" class="year">1967</option>
+                    <option value="1968" class="year">1968</option>
+                    <option value="1969" class="year">1969</option>
+                    <option value="1970" class="year">1970</option>
+                    <option value="1971" class="year">1971</option>
+                    <option value="1972" class="year">1972</option>
+                    <option value="1973" class="year">1973</option>
+                    <option value="1974" class="year">1974</option>
+                    <option value="1975" class="year">1975</option>
+                    <option value="1976" class="year">1976</option>
+                    <option value="1977" class="year">1977</option>
+                    <option value="1978" class="year">1978</option>
+                    <option value="1979" class="year">1979</option>
+                    <option value="1980" class="year">1980</option>
+                    <option value="1981" class="year">1981</option>
+                    <option value="1982" class="year">1982</option>
+                    <option value="1983" class="year">1983</option>
+                    <option value="1984" class="year">1984</option>
+                    <option value="1985" class="year">1985</option>
+                    <option value="1986" class="year">1986</option>
+                    <option value="1987" class="year">1987</option>
+                    <option value="1988" class="year">1988</option>
+                    <option value="1989" class="year">1989</option>
+                    <option value="1990" class="year">1990</option>
+                    <option value="1991" class="year">1991</option>
+                    <option value="1992" class="year">1992</option>
+                    <option value="1993" class="year">1993</option>
+                    <option value="1994" class="year">1994</option>
+                    <option value="1995" class="year">1995</option>
+                    <option value="1996" class="year">1996</option>
+                    <option value="1997" class="year">1997</option>
+                    <option value="1998" class="year">1998</option>
+                    <option value="1999" class="year">1999</option>
+                    <option value="2001" class="year">2001</option>
+                    <option value="2002" class="year">2002</option>
+                </select><br/>
+                <label for="dia">Fecha de nacimiento: </label>
+                <input type="number" name="dia" id="dia" max="31" min="1">
+                <input type="number" name="mes" id="mes" max="12" min="1">
+                <input type="number" name="year" id="year" max="2013" min="1900">
+            </fieldset>
+            <a href="#arriba">Ir arriba</a>
+            <fieldset>
+                <legend>Datos de contacto</legend>
+                <label for="direccion">Dirección</label><br>
+                <input type="text" name="direccion" id="direccion" maxlength="50" pattern="[a-zA-Z0-9]*" size="50"><br>
+                <label for="cp">Código postal</label><br>
+                <input type="text" id="cp" name="cp" size="5" maxlength="5" pattern="[0-9]{5}"><br>
+                <label for="provincia">Provincia</label><br>
+                <!-- etiqueta select -->
+                <select name="provincia" id="provincia">
+                    <!-- etiqueta de opción -->
+                    <option value="coruna">A Coruña</option>
+                    <option value="lugo">Lugo</option>
+                    <option value="ourense">Ourense</option>
+                    <option value="pontevedra">Pontevedra</option>
+                </select><br>
+                <label for="ciudad">Ciudad</label><br>
+                <input type="text" spellcheck="true" name="ciudad" id="ciudad" size="30"><br>
+                <!-- etiqueta label -->
+                <label for="email">Email: </label><br>
+                <!-- etiqueta input tipo email. El tipo email ya valida el texto para que sea un correo válido-->
+                <input name='Email' id="email" type='Email' autocomplete="Email" required/><br>
+                <label for="telefono">Teléfono: </label><br>
+                <!-- etiqueta input tipo teléfono -->
+                <input type="tel" name="telefono" id="telefono" pattern="[0-9]{9}"><br>
+                <br>
+            </fieldset>
+           <h4>Barra avance de proceso de alta</h4>
+           <progress value="10" max="20">10</progress>
+           <fieldset>
+               <legend>Datos del perfil</legend>
+               <label for="usuario" accesskey="u" >Nombre de usuario</label><br>
+               <input type="text" id="usuario" name="usuario" required autofocus><br>
+               <label for="passwd" accesskey="c">Contraseña</label><br>
+               <input type="password" id="passwd" name="passwd" required><br>
+               <label for="imagen">Imagen del perfil</label><br>
+               <input type="file" id="imagen" name="imagen"><br>
+               <label for="color">Color de fondo</label><br>
+               <input type="color" id="color" name="color"><br>
+               <label for="navegador" accesskey="n">Navegador por defecto</label><br>
+               <input type="text" name="navegador" list="listanavegadores" id="navegador">
+           </fieldset>
+       <datalist id="listanavegadores">
+           <option value="Chrome">
+           <option value="Firefox">
+           <option value="Iexplorer">
+           <option value="Safari">
+           <option value="Vivaldi">
+       </datalist>
+            <!-- etiqueta input tipo botón -->
+            <a aria-label="Volver a formualario.html" href="formulario.html">Volver  </a>
+            <input type="submit" name="Enviar" id="enviar" value="Enviar">
+            <input type="reset" name="reset">
+        </form>
+       <hr>
+                       <!--Nuevo formulario con output-->
+       <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+           Espacio de disco deseado:
+           <input type="range" name="b" value="50" /> +
+           <input type="number" name="a" value="10" /> =
+           <output name="result">60</output>GB
+       </form> 
+ 
+        <a href="#arriba">Ir arriba</a>
+    </main>
+    <footer> 
+        <!-- pié de la página -->
+        <p>&#167;</p>
+        <p>&#169; 2020&#8211;9 <a href="#">Marina Vega Vázquez</a></p> 
+    </footer>
+</body>
+</html>
