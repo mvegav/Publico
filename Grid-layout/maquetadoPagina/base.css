@@ -15,3 +15,8 @@ header h1{
     color: #492313;
    
 }
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
